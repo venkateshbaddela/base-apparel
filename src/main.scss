@@ -140,6 +140,12 @@ body {
       object-position: top center;
     }
   }
+
+  @include media($larger) {
+    &__image {
+      height: 100%;
+    }
+  }
 }
 
 //////////////////////////////

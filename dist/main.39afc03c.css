@@ -99,6 +99,11 @@ body {
     object-position: top center;
   }
 }
+@media screen and (min-width: 75em) {
+  .header__image {
+    height: 100%;
+  }
+}
 
 /* main */
 @media screen and (min-width: 59.37em) {

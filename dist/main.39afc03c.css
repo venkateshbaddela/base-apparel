@@ -18,7 +18,6 @@ body {
 }
 
 .container {
-  height: 100%;
   position: relative;
   background-image: url(/bg-pattern-desktop.dd16bb75.svg);
   margin: auto;
@@ -29,7 +28,7 @@ body {
   .container {
     max-width: 144rem;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 7rem;
   }
 }
 @media screen and (min-width: 59.37em) {
@@ -98,11 +97,6 @@ body {
     height: 70rem;
     object-fit: cover;
     object-position: top center;
-  }
-}
-@media screen and (min-width: 75em) {
-  .header__image {
-    height: 100%;
   }
 }
 
@@ -281,7 +275,7 @@ body {
 
 /* Footer */
 .footer {
-  padding-top: 10rem;
+  margin-top: 5rem;
 }
 .footer__attribution {
   font-size: 11px;

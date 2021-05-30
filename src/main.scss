@@ -44,8 +44,8 @@ body {
 }
 
 .container {
-  height: 100%;
   position: relative;
+
   background-image: url(../images/bg-pattern-desktop.svg);
   margin: auto;
   box-shadow: -1px 0 25px -15px #000;
@@ -54,7 +54,7 @@ body {
     & {
       max-width: 144rem;
       margin: auto;
-      margin-top: 5rem;
+      margin-top: 7rem;
     }
   }
 
@@ -138,12 +138,6 @@ body {
       height: 70rem;
       object-fit: cover;
       object-position: top center;
-    }
-  }
-
-  @include media($larger) {
-    &__image {
-      height: 100%;
     }
   }
 }
@@ -354,7 +348,7 @@ body {
 /* Footer */
 
 .footer {
-  padding-top: 10rem;
+  margin-top: 5rem;
   &__attribution {
     font-size: 11px;
     text-align: center;

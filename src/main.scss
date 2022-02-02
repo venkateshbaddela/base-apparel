@@ -44,16 +44,12 @@ body {
 }
 
 .container {
-<<<<<<< HEAD
-=======
-  
->>>>>>> a41651eadd4cec8c162e27c072edd95ac33e76fd
   position: relative;
-
   background-image: url(../images/bg-pattern-desktop.svg);
   margin: auto;
   box-shadow: -1px 0 25px -15px #000;
   border-radius: 5px;
+
   @include media($large) {
     & {
       max-width: 144rem;

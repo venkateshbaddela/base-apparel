@@ -19,7 +19,7 @@ body {
 
 .container {
   position: relative;
-  background-image: url(/bg-pattern-desktop.dd16bb75.svg);
+  background-image: url(/bg-pattern-desktop.8e63e549.svg);
   margin: auto;
   box-shadow: -1px 0 25px -15px #000;
   border-radius: 5px;
@@ -251,7 +251,7 @@ body {
   background: linear-gradient(135deg, #eebfbf, #e8bfbf);
 }
 .section__form-btn::after {
-  background: url(/icon-arrow.3350423b.svg);
+  background: url(/icon-arrow.68b25e3d.svg);
   width: 1.5rem;
   height: 1.5rem;
 }
@@ -296,4 +296,4 @@ body {
   font-size: 1.5rem;
 }
 
-/*# sourceMappingURL=/main.39afc03c.css.map */
+/*# sourceMappingURL=/main.ff7b52d2.css.map */

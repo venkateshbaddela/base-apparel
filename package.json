@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build --no-minify src/index.html"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,14 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "sass": "^1.34.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkateshbaddela/base-apparel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/venkateshbaddela/base-apparel/issues"
+  },
+  "homepage": "https://github.com/venkateshbaddela/base-apparel#readme"
 }
